@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "xos4 Terminus:pixelsize=22:autohint=true";
+static char *font = "Terminus:pixelsize=14:autohint=true";
 static int borderpx = 2;
 
 /*
