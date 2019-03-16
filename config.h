@@ -83,37 +83,28 @@ char *termname = "xterm-256color";
 unsigned int tabspaces = 8;
 
 static const char *colorname[] = {
-	/* 8 normal colors */
-	"black",
-	"red3",
-	"green3",
-	"yellow3",
-	"blue2",
-	"magenta3",
-	"cyan3",
-	"gray90",
-
-	/* 8 bright colors */
-	"gray50",
-	"red",
-	"green",
-	"yellow",
-	"#5c5cff",
-	"magenta",
-	"cyan",
-	"white",
-
-	[255] = 0,
-
-	/* more colors can be added after 255 to use with DefaultXX */
-	"#cccccc",
-	"#555555",
+  "#121212",
+  "#ca674a",
+  "#96a967",
+  "#d3a94a",
+  "#5778c1",
+  "#9c35ac",
+  "#6eb5f3",
+  "#a9a9a9",
+  "#535551",
+  "#ea2828",
+  "#87dd32",
+  "#f7e44d",
+  "#6f9bca",
+  "#a97ca4",
+  "#32dddd",
+  "#e9e9e7"
 };
 
 unsigned int defaultfg = 7;
 unsigned int defaultbg = 0;
-static unsigned int defaultcs = 256;
-static unsigned int defaultrcs = 257;
+static unsigned int defaultcs = 7;
+static unsigned int defaultrcs = 0;
 
 /*
  * Default shape of cursor
