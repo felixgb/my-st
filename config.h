@@ -63,7 +63,7 @@ static unsigned int cursorthickness = 2;
 static int bellvolume = 20;
 
 /* default TERM value */
-char *termname = "st-256color";
+char *termname = "xterm-256color";
 
 /*
  * spaces per tab
@@ -82,29 +82,28 @@ char *termname = "st-256color";
  */
 unsigned int tabspaces = 8;
 
-/* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
-  "#1d2021",
-  "#fb4934",
-  "#b8bb26",
-  "#fabd2f",
-  "#83a598",
-  "#d3869b",
-  "#8ec07c",
-  "#d5c4a1",
-  "#665c54",
-  "#fe8019",
-  "#3c3836",
-  "#504945",
-  "#bdae93",
-  "#ebdbb2",
-  "#d65d0e",
-  "#fbf1c7",
+  "#121212",
+  "#ca674a",
+  "#96a967",
+  "#d3a94a",
+  "#5778c1",
+  "#9c35ac",
+  "#6eb5f3",
+  "#a9a9a9",
+  "#535551",
+  "#ea2828",
+  "#87dd32",
+  "#f7e44d",
+  "#6f9bca",
+  "#a97ca4",
+  "#32dddd",
+  "#e9e9e7"
 };
 
 unsigned int defaultfg = 7;
 unsigned int defaultbg = 0;
-static unsigned int defaultcs = 13;
+static unsigned int defaultcs = 7;
 static unsigned int defaultrcs = 0;
 
 /*
