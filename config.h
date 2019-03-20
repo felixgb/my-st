@@ -83,27 +83,27 @@ char *termname = "xterm-256color";
 unsigned int tabspaces = 8;
 
 static const char *colorname[] = {
-  "#121212",
-  "#ca674a",
-  "#96a967",
-  "#d3a94a",
-  "#5778c1",
-  "#9c35ac",
-  "#6eb5f3",
-  "#a9a9a9",
-  "#535551",
-  "#ea2828",
-  "#87dd32",
-  "#f7e44d",
-  "#6f9bca",
-  "#a97ca4",
-  "#32dddd",
-  "#e9e9e7"
+	"#1d2021", /* hard contrast: #1d2021 / soft contrast: #32302f */
+	"#cc241d",
+	"#98971a",
+	"#d79921",
+	"#458588",
+	"#b16286",
+	"#689d6a",
+	"#a89984",
+	"#928374",
+	"#fb4934",
+	"#b8bb26",
+	"#fabd2f",
+	"#83a598",
+	"#d3869b",
+	"#8ec07c",
+	"#ebdbb2"
 };
 
-unsigned int defaultfg = 7;
+unsigned int defaultfg = 15;
 unsigned int defaultbg = 0;
-static unsigned int defaultcs = 7;
+static unsigned int defaultcs = 15;
 static unsigned int defaultrcs = 0;
 
 /*
