@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "xos4 Terminus:pixelsize=22:autohint=true";
+static char *font = "Fira Mono:pixelsize=22:autohint=true";
 static int borderpx = 2;
 
 /*
@@ -49,7 +49,7 @@ static unsigned int actionfps = 30;
  * blinking timeout (set to 0 to disable blinking) for the terminal blinking
  * attribute.
  */
-static unsigned int blinktimeout = 800;
+static unsigned int blinktimeout = 500;
 
 /*
  * thickness of underline and bar cursors
@@ -83,22 +83,23 @@ char *termname = "xterm-256color";
 unsigned int tabspaces = 8;
 
 static const char *colorname[] = {
-  "#121212",
-  "#ca674a",
-  "#96a967",
-  "#d3a94a",
-  "#5778c1",
-  "#9c35ac",
-  "#6eb5f3",
-  "#a9a9a9",
-  "#535551",
-  "#ea2828",
-  "#87dd32",
-  "#f7e44d",
-  "#6f9bca",
-  "#a97ca4",
-  "#32dddd",
-  "#e9e9e7"
+  "#000101",
+  "#081613",
+  "#0F2E2C",
+  "#1E2A24",
+  "#2B4738",
+  "#39403B",
+  "#2D5752",
+  "gray90",
+  "#57675E",
+  "#378674",
+  "#678975",
+  "#8A8171",
+  "#6B9A8E",
+  "#56AD9A",
+  "#97A999",
+  "#BAD2B4",
+  "#DEEDD3"
 };
 
 unsigned int defaultfg = 7;
