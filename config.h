@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Fira Mono:pixelsize=22:autohint=true";
+static char *font = "FiraCode:pixelsize=22:autohint=true";
 static int borderpx = 2;
 
 /*
@@ -83,23 +83,31 @@ char *termname = "xterm-256color";
 unsigned int tabspaces = 8;
 
 static const char *colorname[] = {
-  "#000101",
-  "#081613",
-  "#0F2E2C",
-  "#1E2A24",
-  "#2B4738",
-  "#39403B",
-  "#2D5752",
-  "gray90",
-  "#57675E",
-  "#378674",
-  "#678975",
-  "#8A8171",
-  "#6B9A8E",
-  "#56AD9A",
-  "#97A999",
-  "#BAD2B4",
-  "#DEEDD3"
+	/* 8 normal colors */
+	"black",
+	"red3",
+	"green3",
+	"yellow3",
+	"blue2",
+	"magenta3",
+	"cyan3",
+	"gray90",
+
+	/* 8 bright colors */
+	"gray50",
+	"red",
+	"green",
+	"yellow",
+	"#5c5cff",
+	"magenta",
+	"cyan",
+	"white",
+
+	[255] = 0,
+
+	/* more colors can be added after 255 to use with DefaultXX */
+	"#cccccc",
+	"#555555",
 };
 
 unsigned int defaultfg = 7;
